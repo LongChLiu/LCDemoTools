@@ -1,0 +1,6 @@
+framework module LCDemoTools {
+  umbrella header "LCDemoTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

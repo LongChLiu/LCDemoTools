@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LCDemoTools_Example' do
+  pod 'LCDemoTools', :path => '../'
+
+  target 'LCDemoTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LCDemoTools (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LCDemoTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LCDemoTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LCDemoTools: d93f795d956d8de7692a2085677babf607a77e97
+
+PODFILE CHECKSUM: 5ed054d82bfde11c33ea8531a1e1bd4f64ee48e3
+
+COCOAPODS: 1.11.0.beta.2
